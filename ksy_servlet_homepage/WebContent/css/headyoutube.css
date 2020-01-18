@@ -1,0 +1,10 @@
+@charset:"utf-8";
+
+.youtubeDiv{
+	 display: none;
+}
+
+.youtubeDiv2{
+	height:500px; withd:100%;
+	background:#000000;
+}
