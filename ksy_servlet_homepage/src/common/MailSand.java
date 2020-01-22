@@ -47,7 +47,7 @@ public class MailSand extends HttpServlet {
 		String emial2 = (String)request.getAttribute("t_email2");
 		String id = (String)request.getAttribute("t_id");
 		String newPw = dao.randomPw(id);
-		newPw = "123";
+		//newPw = "123";
 		String pw ="";
 		try{
 			pw = CommonUtil.encryptSHA256(newPw);

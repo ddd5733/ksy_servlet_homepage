@@ -6,24 +6,17 @@
 .clickBoxDiv {
     width: 900px;
     height: 80px;
-    display:flex;
-   background:red;
+    background:red;
+   text-align: center;
     
 }
-.clickBoxDiv.ingDiv{
-    width: 400px;
-    height: 70px;
-     flex:1;
-     background:blue;
-    
+.ingButton{
+	height:70px; width:200px;
 }
-.clickBoxDiv.endDiv{
-     width: 400px;
-     height: 70px;
-     flex:1;
-     background:black;
+.endButton{
+	height:70px; width:200px;
 }
-.board_body2{padding: border-top:1px solid #ddd; border-bottom:1px solid #ddd; margin-top:35px;}
+.board_body2{ border-top:1px solid #ddd;  border-bottom:1px solid #ddd; margin-top:35px; text-align: -webkit-center;}
 
 
 /* main css */

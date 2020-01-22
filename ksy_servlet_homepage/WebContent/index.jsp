@@ -21,7 +21,6 @@
 		</div>
 		</form>
 	</section>
-	<p> join(Completion),login(Completion),logout(Completion),companyintro(Ing)</p>
 	
 	<section class="main_content">
 		<h2 class="sr-only">주요서비스<h2>

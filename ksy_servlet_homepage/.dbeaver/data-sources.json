@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-16fc6976ae7-5a14e7351487be43": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "Oracle - orcl",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "admin-pc04",
+				"port": "1521",
+				"database": "orcl",
+				"url": "jdbc:oracle:thin:@//admin-pc04:1521/orcl",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

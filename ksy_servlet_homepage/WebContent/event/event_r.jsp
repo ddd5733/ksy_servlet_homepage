@@ -15,8 +15,8 @@
 			
 			<div class="board_body2">
 				<div class="clickBoxDiv">
-					<div class="box">진행중인이벤트</div>
-					<div class="box">종료된이벤트</div>
+					<input type="button" value="진행중인이벤트" class="ingButton">
+					<input type="button" value="종료된이벤트" class="endButton">
 				</div>
 			</div>
 		
